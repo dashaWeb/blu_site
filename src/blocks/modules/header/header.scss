@@ -9,6 +9,9 @@
             font-family:$font-thin;
         }
     }
+   
+}
+header{
     .social{
         a{
             @include font($base-light,$font-regular,20px);
@@ -33,11 +36,10 @@
         background-position:  -10px -55px;
      }
     }
-}
-header{
-    background-color: $primary-3;
     nav{
 
+        background-color: $primary-3;
+        position: relative;
         ul{
             padding: 0;
             display: flex;
@@ -78,7 +80,22 @@ header{
 
             }
         }
-
+    }
+    .burger,.burger::after,.burger::before{
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        position: absolute;
+    }
+    .burger::after{
+        content: '';
+        top:-8px;
+        
+    }
+    .burger::before{
+        content: '';
+        top:8px;
+       
     }
 }
 
