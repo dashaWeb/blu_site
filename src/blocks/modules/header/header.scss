@@ -103,5 +103,8 @@ header{
             font-family:$font-thin;
         }
     }
+    .menu{
+        box-shadow: 0 2px 15px $base-dark;
+    }
 }
 
