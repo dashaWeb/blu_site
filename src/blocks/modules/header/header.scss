@@ -2,6 +2,7 @@
     background-color:$primary-1;
     .row{
         align-items: center;
+        padding: 15px 0;
     }
     p{
         @include font($primary-4,$font-regular,20px);
@@ -105,6 +106,14 @@ header{
     }
     .menu{
         box-shadow: 0 2px 15px $base-dark;
+    }
+    @media screen and (max-width:1024px) {
+        .row{
+            padding:10px 0;
+        }
+    }
+    @media screen and (max-width:1200px) {
+       
     }
 }
 
