@@ -96,7 +96,7 @@
 }
 @media (max-width:768px){
     .banner{
-        background: #dce8f0;
+        background:url(../../../img/bg-mobbile.png) $base-light center -120px no-repeat;
     }
 }
 
@@ -104,10 +104,14 @@
 @media (max-width:768px){
 .banner{
         position: relative;
+        padding: 0;
+    .block-tringle{
+        margin: 0;
+    }
     .icon-button{
         position: absolute;
         z-index: 1;
-        top: 65px;
+        top: 50px;
         right:5px;
         div{
             width: 50px;
@@ -129,5 +133,21 @@
             background-color: $primary-1;
         }
     }
+    .block-tringle{
+       
+       p{
+            background-color: $primary-4;
+            padding: 5px 0px 5px 5px;
+            @include font($primary-3,$font-regular,18px);
+        }
+        div{
+            width: 0; 
+            height: 0;
+            border-top: 30px solid $primary-4;
+            border-right: 30px solid transparent;
+        }
+       
+    }
 }
+
 }
