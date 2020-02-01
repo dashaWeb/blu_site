@@ -148,6 +148,27 @@
         }
        
     }
+    .button{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin:0 30px; 
+        grid-row-gap: 15px;
+        button{
+            padding: 3px;
+        }
+    }
+    .sale-number{
+        @include font($order-color,$font-bold,34px)
+    }
+    .sale-word{
+        @include font($order-color,$font-regular,26px);
+        text-transform: uppercase;
+    }
+    .sale{
+        text-transform: uppercase;
+        @include font($primary-2,$font-regular,18px);
+        letter-spacing: -1px;
+    }
 }
 
 }
