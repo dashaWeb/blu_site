@@ -1,4 +1,217 @@
 
+h2{
+    background-color: #caddea;
+    color: #1b7fd0;
+    text-transform: uppercase;
+    font-family: Roboto-Bold;
+    font-size: 25px;
+    text-align: left;
+    padding: 10px;
+}
+
+.arrow{
+    align-self: center;
+    justify-self: flex-end;
+}
+ .p{
+ font-size: 30px;
+ font-family: Roboto-Bold;
+    color: #dd0000;
+    text-transform: uppercase;
+    align-self: center;
+    justify-content: flex-end;
+    width: 40px; 
+}
+ .p2{
+ font-size: 22px;
+ font-family: Roboto-Bold;
+    color: #dd0000;
+    text-transform: uppercase;
+    align-self: center;
+}
+.color{
+    font-size: 18px;
+    color: #075da2;
+    font-family: Roboto-Bold;
+    text-transform: uppercase;
+    align-self: center;
+}
+.col,.col2 h4{
+    color: #e1ebf4;
+    text-transform: uppercase;
+    font-family: Roboto-Thin;
+    font-size: 14px;
+    text-align: left;
+}
+.col{
+    padding: 30px 20px 20px 10px;
+}
+.col2{
+    padding-top: 55px;
+}
+.prices{
+    text-transform: uppercase;
+    font-family: Roboto-Bold;
+    font-size: 32px;
+}
+.p3{
+    font-size: 20px;
+}
+h3{
+    color: #e1ebf4;
+    align-self: center;
+    font-family: Roboto-Regular;
+    text-transform: uppercase;
+}
+.name4>h2{
+    text-align: center;
+}
+.paragraph{
+    font-size: 14px;
+    font-family: "Arial";
+    color: black;
+    text-align: justify;
+    padding-top: 40px;
+}
+.name6{
+    background-color: #f4f6fa;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+} 
+.name6>h4{
+    color: #1b7fd0;
+    font-family: Roboto-Bold;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 130px;
+}
+.paragraph2{
+    font-size: 12px;
+    font-family: "Arial";
+    color: black;
+    text-align: justify;
+}
+.justify{
+    font-size: 12px;
+    font-family: "Arial";
+    color: black;
+    text-align: justify;
+}
+.read{
+    background-color: #075da2;
+    color: #dee9f3;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    width: 150px;
+    align-self: center;
+}
+.name6:hover .read{
+    color: #dee9f3;
+    text-decoration: none;
+}
+.name6:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+.name5 h2{
+    text-align: center;
+}
+.row .white{
+    color: #e9f7fe;
+    font-family: Roboto-Regular;
+    padding-top: 20px;
+}
+.number{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #1b7fd0;
+    font-family: Roboto-Bold;
+    text-align: center;
+}
+.two{
+    width: 25%;
+}
+.two .white{
+    text-align: left;
+    padding-top: 10px;
+}
+.two hr{
+    height: 3px;
+    background-color: #fff;
+}
+.pay{
+    background-color: #caddea;
+    display: flex;
+    flex-direction: row;
+}
+.cards>a>img{
+    width: 12%;
+    padding: 10px;
+}
+.icons{
+    align-self: center;
+}
+.bg-footer{
+    background-color: #013056;
+}
+.panel{
+    display: flex;
+    flex-direction: row;
+}
+.three{
+    padding: 10px 0;
+}
+.text a{
+    color: #caddea;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    text-decoration: none;
+}
+.text a:hover{
+    color: #1b7fd0;
+}
+.hr{
+    height: 2px;
+    background-color: #caddea;
+    position: relative;
+}
+.circle2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #013056;
+    font-family: Roboto-Bold;
+    font-size: 22px;
+    text-align: center;
+    position: absolute;
+    top: -32px;
+    left: 540px;
+    display: block;
+}
+.list2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0;
+    margin: 0;
+}
 
 .list2 a{
     text-decoration: none;
