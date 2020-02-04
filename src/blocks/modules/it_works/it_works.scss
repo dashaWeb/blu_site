@@ -1,0 +1,404 @@
+
+
+.list2 a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 35px;
+}
+.list2 a:hover{
+    color: #1b7fd0;
+}
+.col3{
+    padding-bottom: 100px;
+}
+.foot{
+    color: #caddea;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.work{
+    font-size: 14px;
+    font-family: "Arial";
+    color: black;
+    text-align: center;
+}
+.punkts h4{
+    color: #1b7fd0;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: Roboto-Bold;
+    padding-left: 15px;
+}
+.punkts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 7px 0;
+}
+.blue{
+    font-size: 18px;
+    font-family: Roboto-Bold;
+    color: rgb(9, 131, 229);
+}
+.kolok img{
+    width: 120px;
+    padding: 10px 0;
+}
+.punkts:hover h4{
+  color:#fff;
+}
+.hide-article{
+    display: none;
+}
+.show-article{
+    display: block;
+}
+.punkts:hover{
+    background-color: #075da2;
+    position: relative;
+    z-index: 1;
+}
+.arrows{
+    display: none;
+}
+.d6{
+    width: 0;
+    height: 0;
+    border-top: 33px solid transparent;
+    border-left: 30px solid #075da2;
+    border-bottom: 33px solid transparent;
+    right: -30px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    display: block;
+}
+.bold{
+    font-size: 44px;
+    font-family: rajdhani-bold;
+    color: rgb(202, 221, 234);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.place{
+    width: 460px;
+    height: 400px;
+    background-color: #fff;
+}
+.hr1{
+    margin: 0;
+    padding: 0;
+}
+.place{
+    text-align: center;
+    margin-top: 20px;
+}
+.col7{
+    padding-top: 20px;
+}
+#triangle-topleft{
+    width: 0; 
+    height: 0;
+    border-top: 50px solid #caddea;
+    border-right: 50px solid transparent;
+    position: absolute;
+    top:50px;
+    left: 0;
+    }
+    #triangle-shadow{
+    width: 0; 
+    height: 0;
+    border-top: 50px solid #9c9c9c;
+    border-right: 50px solid transparent;
+    position:absolute;
+    bottom: -49px;
+    }
+    .tri{
+        position: relative;
+        height: 100px;
+        margin-top: 30px;
+    }
+    .triangle,.name{
+        height: 100px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .triangle{
+        background-color: #9c9c9c;
+        height: 50px;
+        top: 12px;
+        left: 6px;
+        filter: blur(6px);
+    }
+    #triangle-topleft2{
+        width: 0; 
+        height: 0;
+        border-top: 20px solid #caddea;
+         border-right: 20px solid transparent;
+         position: absolute;
+         top:48px;
+         left: 0;
+                }
+     #triangle-shadow2{
+         width: 0; 
+          height: 0;
+          border-top: 20px solid #013056;
+       border-right: 20px solid transparent;
+         position:absolute;
+          bottom: -24px;
+    }
+    .tri2{
+        position: relative;
+        height:75px;
+        margin-top: 20px;
+                }
+    .triangle2,.name2{
+        height: 50px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+                }
+    .triangle2{
+        background-color: #013056;
+        height: 50px;
+        top: 15px;
+        left: 6px;
+        filter: blur(6px);
+        }
+#triangle-topleft3{
+        width: 0; 
+        height: 0;
+        border-top: 15px solid #dd0000;
+        border-right: 15px solid transparent;
+        position: absolute;
+        top:64px;
+        left: 0;
+        }
+.tri3{
+        padding-top: 20px;
+        position: relative;
+    }
+.name3{
+        background-color: #dd0000;
+        height: 40px;
+        position: absolute;
+        top: 25px;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+#triangle-topleft4{
+        width: 0; 
+        height: 0;
+        border-top: 20px solid #caddea;
+        border-right: 20px solid transparent;
+        position: absolute;
+        top:47px;
+        left: 0;
+        }
+#triangle-shadow4{
+        width: 0; 
+        height: 0;
+        border-top: 20px solid #9c9c9c;
+        border-right: 20px solid transparent;
+        position:absolute;
+        bottom: -24px;
+        }
+.tri4{
+      position: relative;
+      height:40px;
+        }
+.triangle4,.name4{
+     height: 40px;
+    position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+        }
+.triangle4{
+    background-color: #9c9c9c;
+      height: 40px;
+       top: 15px;
+      left: 6px;
+      filter: blur(6px);
+        }
+#triangle-topleft5{
+    width: 0; 
+    height: 0;
+    border-top: 20px solid #caddea;
+     border-right: 20px solid transparent;
+     position: absolute;
+     top:48px;
+     left: 0;
+            }
+ #triangle-shadow5{
+     width: 0; 
+      height: 0;
+      border-top: 20px solid #013056;
+   border-right: 20px solid transparent;
+     position:absolute;
+      bottom: -24px;
+}
+.tri5{
+    position: relative;
+    height:65px;
+    margin-top: 20px;
+            }
+.triangle5,.name5{
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+            }
+.triangle5{
+    background-color: #013056;
+    height: 40px;
+    top: 15px;
+    left: 6px;
+    filter: blur(6px);
+    }
+    #triangle-topleft6{
+        width: 0; 
+        height: 0;
+        border-top: 30px solid #f4f6fa;
+        border-right: 30px solid transparent;
+        position: absolute;
+        top:580px;
+        left: 0;  
+    }
+    .name6:hover #triangle-topleft6{
+        width: 0; 
+        height: 0;
+        border-top: 30px solid #fff;
+        border-right: 30px solid transparent;
+        position: absolute;
+        top:580px;
+        left: 0;
+        }
+     #triangle-shadow6{
+        width: 0; 
+        height: 0;
+        border-top: 30px solid #9c9c9c;
+        border-right: 30px solid transparent;
+        position:absolute;
+        bottom: -24px;
+        }
+        .tri6{
+            position: relative;
+            height:580px;
+                    }
+.triangle6{
+   height: 580px;
+    position: absolute;
+    top: 0;
+    left: 16px;
+    width: 90%;
+}
+.name6:hover{
+    z-index: 1;
+}
+    .tri6:hover .triangle6{
+            background-color: #9c9c9c;
+            height: 580px;
+            top: 8px;
+            left: 20px;
+            filter: blur(6px);
+}
+#triangle-topleft7{
+    width: 0; 
+    height: 0;
+    border-top: 20px solid #caddea;
+     border-right: 20px solid transparent;
+     position: absolute;
+     top:48px;
+     left: 0;
+            }
+ #triangle-shadow7{
+     width: 0; 
+      height: 0;
+      border-top: 20px solid #9c9c9c;
+   border-right: 20px solid transparent;
+     position:absolute;
+      bottom: -24px;
+}
+.tri7{
+    position: relative;
+    height:65px;
+            }
+.triangle7,.name7{
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+            }
+.triangle7{
+    background-color: #9c9c9c;
+    height: 40px;
+    top: 20px;
+    left: 6px;
+    filter: blur(6px);
+    }
+.name7 h2{
+    text-align: center;
+}
+.name6>.img{
+    display: block;
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    top: 10px;
+    left: 75px;
+    background-image: url(../img/Element1.svg);
+    background-repeat: no-repeat;
+}
+.name6:hover .img{
+    background-image: url(../img/Element1_dark.svg);
+}
+.name6>.img2{
+    display: block;
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    top: 10px;
+    left: 75px;
+    background-image: url(../img/Element2.svg);
+    background-repeat: no-repeat;
+}
+.name6:hover .img2{
+    background-image: url(../img/Element2_dark.svg);
+}
+.name6>.img3{
+    display: block;
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    top: 10px;
+    left: 75px;
+    background-image: url(../img/Element3.svg);
+    background-repeat: no-repeat;
+}
+.name6:hover .img3{
+    background-image: url(../img/Element3_dark.svg);
+}
+.name6>.img4{
+    display: block;
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    top: 10px;
+    left: 75px;
+    background-image: url(../img/Element4.svg);
+    background-repeat: no-repeat;
+}
+.name6:hover .img4{
+    background-image: url(../img/Element4_dark.svg);
+}
